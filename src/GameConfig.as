@@ -2,17 +2,18 @@
 package {
 	import laya.utils.ClassUtils;
 	import laya.ui.View;
+	import laya.webgl.WebGL;
 	/**
 	 * 游戏初始化配置
 	 */
 	public class GameConfig {
-		public static var width:int = 640;
-		public static var height:int = 1136;
+		public static var width:int = 750;
+		public static var height:int = 1334;
 		public static var scaleMode:String = "fixedwidth";
 		public static var screenMode:String = "none";
 		public static var alignV:String = "top";
 		public static var alignH:String = "left";
-		public static var startScene:* = null;
+		public static var startScene:* = "";
 		public static var sceneRoot:String = "";
 		public static var debug:Boolean = false;
 		public static var stat:Boolean = false;

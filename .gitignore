@@ -1,3 +1,4 @@
 # Build and Release Folders
 .laya/temp.js
+.laya/chrome
 bin/js/bundle.js
