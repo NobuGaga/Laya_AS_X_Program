@@ -15,7 +15,7 @@ package {
 		public static var alignH:String = "left";
 		public static var startScene:* = "";
 		public static var sceneRoot:String = "";
-		public static var debug:Boolean = false;
+		public static var debug:Boolean = true;
 		public static var stat:Boolean = false;
 		public static var physicsDebug:Boolean = false;
 		public static var exportSceneToJson:Boolean = true;
