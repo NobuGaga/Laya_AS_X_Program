@@ -10,8 +10,8 @@ package tool {
 
 		public static function init():void {
 			_state = GameConfig.debug || Utils.getQueryString("debug") == "true";
-			if (GameConfig.physicsDebug && Laya.PhysicsDebugDraw)
-				Laya.PhysicsDebugDraw.enable();
+			if (GameConfig.physicsDebug && Laya["PhysicsDebugDraw"])
+				Laya["PhysicsDebugDraw"].enable();
 			if (!_state)
 				return;
 			//打开调试面板（IDE设置调试模式，或者url地址增加debug=true参数，均可打开调试面板）

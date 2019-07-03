@@ -1,1 +1,1 @@
-Project file: C:\Develop\LayaAir\Laya_AS_X_Program/asconfig.json.
+Project file: E:\GitHub\Laya\Laya_AS_X_Program/asconfig.json.
